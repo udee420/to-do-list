@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>To-Do List</title>
+<link rel="icon" type="image/x-icon" href="t.png">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>To-Do Book <img src="t.png" alt="To-Do Icon" class="icon"></h1>
+  <input type="text" id="taskInput" placeholder="Add new task...">
+  <button onclick="addTask()">ADD</button>
+  <ul id="taskList"></ul>
+  
+  <h2>Completed Tasks</h2>
+  <ul id="completedList"></ul>
+  
+  <h2>Recycle Bin</h2>
+  <ul id="recycleBin"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
